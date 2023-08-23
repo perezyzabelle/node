@@ -1,0 +1,20 @@
+{
+  "name": "jobbee-api",
+  "version": "1.0.0",
+  "description": "This API is about jobs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app",
+    "prod" : "SET NODE_ENV=production & nodemon app.js"
+  },
+  "author": "Yzabelle",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
